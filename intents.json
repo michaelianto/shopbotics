@@ -1,0 +1,90 @@
+{
+    "intents": [
+        {
+            "tag": "Salam",
+            "patterns": [
+                "P",
+                "Hi",
+                "Halo",
+                "Apa kabar",
+                "Pagi",
+                "Siang",
+                "Sore",
+                "Malam"
+            ],
+            "responses": [
+                "selamat pagi/sore",
+                "halo,apa kabar"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Terimakasih",
+            "patterns": [
+                "Terimakasih",
+                "Makasih",
+                "Trims"
+            ],
+            "responses": [
+                "Senang bisa membantu! :)",
+                "Sama-sama:)",
+                "Terimakasih Kembali :)"
+            ]
+        },
+        {
+            "tag": "Jam",
+            "patterns": [
+                "Buka jam berapa?",
+                "Kapan buka?",
+                "Kapan bisa chat?",
+                "Bisa bales kapan?",
+                "Jam berapa bisa bales?"
+            ],
+            "responses": [
+                "Kami buka dari jam 9 pagi sampai jam 9 malam",
+                "Jam kerja kami dimulai dari jam 9 pagi sampai jam 9 malam"
+            ]
+        },
+        {
+            "tag": "lokasi",
+            "patterns": [
+                "Lokasi toko?",
+                "Lokasi toko dimana?",
+                "Alamat dimana?",
+                "Dimana lokasi toko ini?",
+                "Gimana kita bisa kontak kalian?",
+                "Kalo mau COD dimana?"
+            ],
+            "responses": [
+                "Jl. Jendral Sudirman 123, Jakarta"
+            ]
+        },
+        {
+            "tag": "pembayaran",
+            "patterns": [
+                "Terima kredit gak?",
+                "Terima mastercard gak?",
+                "Bisa cash doang?",
+                "Kartu kredit mana yang kalian terima?"
+            ],
+            "responses": [
+                "Kita menerima VISA, Mastercard dan Go-Pay"
+            ]
+        },
+        {
+            "tag": "servis",
+            "patterns": [
+                "Jual apa aja",
+                "Ada handphone apa saja",
+                "Servis apa yang ditawarkan?",
+                "Servis yang ditawarkan",
+                "Bisa ngapain aja",
+                "Servis"
+            ],
+            "responses": [
+                "Kami menyediakan Iphone, Samsung, dan Xiaomi",
+                "Tersedia berbagai macam jenis HP seperti Iphone, Samsung, dan Xiaomi"
+            ]
+        }
+    ]
+}
